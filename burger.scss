@@ -1,0 +1,46 @@
+$background-color_1: #A27732;
+$background-color_2: #80D041;
+$background-color_3: #F13233;
+$background-color_4: #B95381;
+$background-color_5: #E8EA02;
+$background-color_6: #603102;
+
+#burger {
+	width: 400px;
+	#top-bun {
+		height: 100px;
+		border-radius: 900px 900px 10px 10px;
+		background-color: $background-color_1;
+		border-top: 9px solid #906725;
+	}
+	#lettuce {
+		border-radius: 8px;
+		background-color: $background-color_2;
+		height: 8px;
+		border-bottom: 3px solid #0F6D12;
+	}
+	#tomato {
+		border-radius: 14px;
+		background-color: $background-color_3;
+		height: 20px;
+		border-bottom: 5px solid #940C0E;
+	}
+	#onion {
+		border-radius: 8px;
+		background-color: $background-color_4;
+		height: 13px;
+		border-bottom: 4px solid #7E1846;
+	}
+	#cheese {
+		background-color: $background-color_5;
+		border-radius: 10px;
+		height: 15px;
+		border-bottom: 5px solid #EAB902;
+	}
+	#bottom-bun {
+		background-color: $background-color_1;
+		border-radius: 10px 10px 50px 50px;
+		height: 60px;
+		border-bottom: 11px solid #724D12;
+	}
+}
